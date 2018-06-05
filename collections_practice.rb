@@ -46,7 +46,7 @@ def add_s(array)
   if index ==1 
     new_array << x +'s'
   end
-  enfd
+end
   new_array
 end
 

@@ -40,17 +40,17 @@ def sum_array(array)
   array.inject {|sum, n| sum + n } 
 end
 
-def add_s(array)
-  new_array = []
-  array.each_with_index do |x, index| 
+#def add_s(array)
+#  new_array = []
+#  array.each_with_index do |x, #index| 
  # if index != 1 
     new_array << x + 's'
   else
     new_array << x
   end
 
-end
-  new_array
+#end
+#  new_array
 end
 
 

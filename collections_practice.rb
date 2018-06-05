@@ -43,7 +43,7 @@ end
 def add_s(array)
   new_array = []
   array.collect { |x| new_array << x +'s'}
-  array
+  new_array
 end
 
 puts "#{add_s(["hand","feet", "knee", "table"])}"

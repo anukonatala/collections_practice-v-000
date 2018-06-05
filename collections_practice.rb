@@ -46,6 +46,7 @@ def add_s(array)
   if index == 1 
     puts "#{index}"
   end
+  puts "#{index}"
 end
   new_array
 end

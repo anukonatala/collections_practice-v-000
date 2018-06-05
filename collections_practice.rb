@@ -42,7 +42,11 @@ end
 
 def add_s(array)
   new_array = []
-  array.collect { |x| new_array << x +'s'}
+  array.collect { |x, index| 
+  if index !=2 
+    new_array << x +'s'
+  end
+  }
   new_array
 end
 

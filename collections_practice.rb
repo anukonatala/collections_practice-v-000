@@ -53,4 +53,4 @@ end
   new_array
 end
 
-puts "#{add_s(["hand","feet", "knee", "table"])}"
+

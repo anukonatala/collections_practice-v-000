@@ -29,7 +29,7 @@ end
 def find_a(array)
   new_array = []
   array.each do |x| 
-    if x.start_with?'a'
+   # if x.start_with?'a'
       new_array << x
   end
   new_array

@@ -42,11 +42,11 @@ end
 
 def add_s(array)
   new_array = []
-  array.each { |x, index| 
+  array.each do |x, index| 
   if index ==1 
     new_array << x +'s'
   end
-  }
+  enfd
   new_array
 end
 
